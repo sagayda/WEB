@@ -106,3 +106,13 @@ a.white_link:hover{
 a.white_link:active{
     color:blue
 }
+
+.code {
+    display: block;
+    color: black;
+    background-color: bisque;
+    border: solid black 0px;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 12px;
+}
