@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <nav class="button_selector_rev">
+            <button id="taskButton_task1" onclick="selectTask('task1')">Опис предметного середовища</button>
+            <button id="taskButton_task2" onclick="selectTask('task2')">Тема, мета, Git</button>
+            <button id="taskButton_task3" onclick="selectTask('task3')">Головна сторінка</button>
+            <button id="taskButton_task4" onclick="selectTask('task4')">Висновки</button>
+        </nav>
+        <hr>
+        <div>
+            <div id="block_task1" style="display: none;">
+                <p>
+                    <b>Тема: </b>
+                    Веб-додаток меню ресторану з можливістю оцінки страв.
+                    <br>
+                    <br>
+                    <b>Мета: </b>
+                    Написання стайту для ресторану, на якому можна буде переглядати страви та залишати про них відгуки.
+                    Додавання до сайту необхідних елементів для зручного користування. Додавання зручної системи 
+                    данних для додавання та вилучення страв з переліку.
+                    <br>
+                    <br>
+                    <b>Об'єкт дослідження: </b>
+                    Система відображення інформації про страви та система відгуків.
+                    <br>
+                    <br>
+                    <b>Предмет дослідження: </b>
+                    Аналіз роботи існуючих онлайн-сервісів ресторанів.
+                    <br>
+                    <br>
+                    <b>Постановка задачі: </b>
+                    Розробка веб-додатку, за допомогою якого користувач переглядає доступні для замовлення страви, ціни на них,
+                    та відгуки інших відвідувачів. Розробка системи відображення та вибору страв за критеріями користувача. 
+                    Розробка системи данних для їх оновлення та актуалізації.
+                    <br>
+                    <br>
+                    <b>Бізнес логіка: </b>
+                    <br>
+                    <br>
+                    Користувач:
+                    <ul>
+                        <li>Реєстрація</li>
+                        <li>Авторизація</li>
+                        <li>Перегляд страв</li>
+                        <li>Пошук страв</li>
+                        <li>Вибір режиму відображення</li>
+                        <li>Перегляд відгуків відвідувачів</li>
+                    </ul>
+                    Користувач (зареєстрований):
+                    <ul>
+                        <li>Оцінка замовленої страви</li>
+                        <li>Написання відгуку</li>
+                    </ul>
+                    Адміністратор:
+                    <ul>
+                        <li>Додавання страв</li>
+                        <li>Видалення страв</li>
+                        <li>Редагування інформації про страви</li>
+                        <li>Модерація відгуків</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div id="block_task2" style="display: none;">
+                <a class="white_link" href="/lab/main.html" target="_blank">Посилання на головну сторінку</a>
+                <br>
+                <br>
+                <a class="white_link" href="/lab/main.html" target="_blank">Посилання на Github</a>
+            </div>
+
+            <div id="block_task3" style="display: none;">
+                <a class="white_link" href="/lab/main.html" target="_blank">
+                    <img src="lab1screenshot.png" style="width: 100%;">
+                </a>
+            </div>
+
+            <div id="block_task4" style="display: none;">
+                
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>

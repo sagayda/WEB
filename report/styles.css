@@ -1,0 +1,108 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: white;
+    background-color:#5C4224;
+}
+
+button {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: white;
+    font-size: large;
+    font-weight: 1000;
+}
+
+.page div {
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 15px;
+    background-color: #9C6F3D;
+    border:hidden;
+    border-radius: 10px;
+}
+
+.block div {
+    border: hidden;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 6px;
+}
+
+.lab_frame {
+    width: 100%;
+    min-height: 600px;
+    margin-top: 4px;
+    height: 100%;
+    border: solid white 1px;
+    border-radius: 10px;
+}
+
+.button_selector, .button_selector_rev {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.button_selector button, .button_selector_rev button{
+    margin: 4px;
+    flex-grow: 1;
+    height: 50px;
+    border: solid white 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button_selector button{
+    background-color: #9C6F3D;
+}
+
+.button_selector button:hover{
+    background-color: #C28B4C;
+}
+
+.button_selector button:disabled{
+    background-color: #72522d;
+    cursor:unset;
+}
+
+.button_selector_rev button{
+    background-color: #72522d;
+}
+
+.button_selector_rev button:hover{
+    background-color: #9C6F3D;
+}
+
+.button_selector_rev button:disabled{
+    background-color: #C28B4C;
+    cursor:unset;
+}
+
+.title_and_photo {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.no_pdn_mrg{
+    padding: 0px;
+    margin: 0px;
+}
+
+a.white_link:link{
+    color: aquamarine;
+}
+
+a.white_link:visited{
+    color:dodgerblue
+}
+
+a.white_link:hover{
+    color:aqua
+}
+
+a.white_link:active{
+    color:blue
+}
