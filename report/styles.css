@@ -11,7 +11,7 @@ button {
     font-weight: 1000;
 }
 
-.page div {
+.page {
     margin: 0 auto;
     max-width: 1300px;
     padding: 15px;
@@ -20,7 +20,7 @@ button {
     border-radius: 10px;
 }
 
-.block div {
+.block {
     border: hidden;
     border-radius: 10px;
     padding: 10px;
@@ -32,27 +32,26 @@ button {
     min-height: 600px;
     margin-top: 4px;
     height: 100%;
-    border: solid white 1px;
+    border: solid white 2px;
     border-radius: 10px;
 }
 
-.button_selector, .button_selector_rev {
+.button_selector {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin: 4px 0;
 }
 
-.button_selector button, .button_selector_rev button{
-    margin: 4px;
+.button_selector button {
     flex-grow: 1;
     height: 50px;
     border: solid white 2px;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
-}
-
-.button_selector button{
     background-color: #9C6F3D;
+    margin: 0;
+    padding: 0;
 }
 
 .button_selector button:hover{
@@ -61,19 +60,6 @@ button {
 
 .button_selector button:disabled{
     background-color: #72522d;
-    cursor:unset;
-}
-
-.button_selector_rev button{
-    background-color: #72522d;
-}
-
-.button_selector_rev button:hover{
-    background-color: #9C6F3D;
-}
-
-.button_selector_rev button:disabled{
-    background-color: #C28B4C;
     cursor:unset;
 }
 
@@ -92,27 +78,17 @@ button {
 }
 
 a.white_link:link{
-    color: aquamarine;
+    color: rgb(127, 233, 252);
 }
 
 a.white_link:visited{
-    color:dodgerblue
+    color:rgb(50, 149, 255)
 }
 
 a.white_link:hover{
-    color:aqua
+    color:rgb(0, 210, 247)
 }
 
 a.white_link:active{
-    color:blue
-}
-
-.code {
-    display: block;
-    color: black;
-    background-color: bisque;
-    border: solid black 0px;
-    border-radius: 5px;
-    margin: 6px;
-    padding: 12px;
+    color:rgb(0, 183, 255)
 }
