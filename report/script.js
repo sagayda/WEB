@@ -36,7 +36,7 @@ function selectTask(task)
     var pressedButton = document.querySelector('[id*="' + task + '"]');
     pressedButton.disabled = true;
 
-    var blocks = document.querySelectorAll('div[id^="block"]');
+    var blocks = document.querySelectorAll('section[id^="block"]');
 
     for (var i = 0; i < blocks.length; i++) {
         blocks[i].style.display = 'none';
