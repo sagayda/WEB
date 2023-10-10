@@ -1,0 +1,146 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+.header {
+    background-color: #222222;
+    height: max-content;
+    color: #fff;
+    padding: 1em;
+    margin: 1em;
+}
+
+.header h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff9638;
+    font-weight: 900;
+}
+
+.header-main {
+    display: flex;
+}
+
+.header-main-text {
+    flex-shrink: 0;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    margin-right: 5%;
+}
+
+.header-main-text * {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.header-main-text-grey {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #c6c6c6
+}
+
+.header-main-button {
+    margin: 10px 0;
+    background-color: gold;
+    border-radius: 6px;
+    width: 40%;
+    height: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-text {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1em;
+}
+
+.header-text-blue {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4fc1ff;
+    font-weight: 800;
+    line-height: 1em;
+}
+
+.language-box-container {
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+.language-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 1px #81bfd636;
+    border-radius: 10px;
+    height: 100%;
+    width: 25%;
+    overflow: hidden;
+    margin: 0.5%;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 3.5vh;
+    color: #4fc1ff;
+    text-align: center;
+}
+
+.language-box-button {
+    width: 100%;
+    background-color: #7ab5ca41;
+    border: hidden;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.main-footer {
+    display: flex;
+    margin: 50px 0;
+    background-color: #e8f5fd;
+    height: 350px;
+    padding: 20px;
+}
+
+.main-footer img {
+    object-fit: contain; 
+    width: 100%;
+}
+
+
+footer {
+    background-color: #222222;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}

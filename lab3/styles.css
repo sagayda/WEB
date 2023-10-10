@@ -1,0 +1,359 @@
+body {
+    background-color: #664C3B;
+}
+
+header {
+    position: sticky;
+    top: -230px;
+    background-color: inherit;
+    padding-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    left: 0;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+    background-color:#7a5d4a;
+    /* box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1); */
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: baseline;
+}
+
+main div {
+    flex-grow: 1;
+}
+
+#margin1 {
+    margin: 0px 12px;
+}
+
+#desc {
+    color: #a28775;
+}
+
+a.clear-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+*.horizontal-list-group {
+    display: block;
+    box-sizing: border-box;
+}
+
+.horizontal-list-group ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal-list-group li {
+    margin: 0 5%;
+}
+
+*.block {
+    background-color: #EAD9CE;
+    border: hidden;
+    border-radius: 6px;
+}
+
+*.attic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #664C3B;
+    color: #EAD9CE;
+    max-height: 50px;
+}
+
+.attic-button-group {
+    margin: 8px 0;
+    padding-left: 5%;
+}
+
+.attic-animated-link * {
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    background-color: #664C3B;
+    color: #d6b6a1;
+    border: hidden;
+    cursor: pointer;
+}
+
+.attic-animated-link *:hover {
+    color: #EAD9CE;
+}
+
+.attic-animated-link *::after {
+    content: "";
+    display: block;
+    padding-top: 0px;
+    border-bottom: solid #EAD9CE 2.5px;
+    border-radius: 5px;
+    width: 0;
+    opacity: 0;
+    transition: width 0.3s ease-out, opacity 0.3s linear;
+}
+
+.attic-animated-link *:hover::after {
+    opacity: 1;
+    width: 100%;
+    transition: width 0.3s ease-out, opacity 0.3s linear;
+}
+
+.attic-animated-link-blacked * {
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    background-color: #EAD9CE;
+    color: #664C3B;
+    border: hidden;
+    cursor: pointer;
+}
+
+.attic-animated-link-blacked *:hover {
+    color: #4D392C;
+}
+
+.attic-animated-link-blacked *::after {
+    content: '';
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #664C3B;
+    transform: scale(0.1, 1);
+}
+
+.attic-animated-link-blacked *:hover::after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.attic-link-group {
+    display: flex;
+    margin-right: 5%;
+    align-items: center;
+    justify-content: start;
+}
+
+.attic-link a {
+    display: inline-block;
+    font-size: medium;
+    color: #d6b6a1;
+    text-decoration: none;
+    border-bottom: dotted #d6b6a1 3px;
+    padding: 0;
+    cursor: pointer;
+    transition: color 0.5s ease-out, border-bottom 0.5s ease-out;
+}
+
+.attic-link a:hover {
+    color: #EAD9CE;
+    border-bottom: solid #EAD9CE 3px;
+    transition: border-bottom 0.5s ease-out;
+}
+
+.attic-link i {
+    margin-right: 4px;
+}
+
+.attic-button {
+    display: block;
+    height: 70%;
+    width: 100%;
+    transition: all 0.3s;
+    position: relative;
+    cursor: pointer;
+}
+
+.attic-button ul {
+    display:none;
+    position: relative;
+    top: -4px;
+    background-color: #EAD9CE;
+    height: fit-content;
+    width: 120%;
+    left: -10%;
+    padding-bottom: 5%;
+    cursor: default;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.attic-button:hover ul {
+    display:block;
+}
+
+.attic-button a {
+    transition: all 0.3s;
+}
+
+.attic-button:hover a {
+    letter-spacing: 2px;
+}
+
+.attic-button::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #664C3B;
+    border-bottom-color: #664C3B;
+    transform: scale(0.1, 1);
+}
+
+.attic-button:hover::before {
+    opacity: 1;
+    transform: scale(1, 1);
+}   
+
+.attic-button * {
+    display: block;
+    text-align: center;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.attic-nav {
+    height: 50px;
+}
+
+.attic-title {
+    font-family:Times, Times New Roman, serif;
+    color: #EAD9CE;
+    display: flex;
+    height: 150px;
+    width: calc(100% - padding - margin);
+    padding: 12px;
+    margin: 12px;
+    border: #B3A69D dashed 2px;
+    border-top-right-radius: 34px;
+    border-bottom-left-radius: 34px; 
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.attic-title * {
+    flex-grow: 0;
+}
+
+.attic-title-name {
+    font-style: oblique;
+    font-size: larger;
+    font-variant-caps:all-small-caps;
+    text-align: center;
+    width: 35%;
+}
+
+.attic-title-name h3, .attic-title-name h2 {
+    text-shadow: 3px 3px 5px rgba(227, 194, 95, 0.5);
+}
+
+.attic-title-phone {
+    text-align: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.attic-title-phone div {
+    margin: 10px 0;
+}
+
+.attic-title-map {
+    width: 35%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.attic-title-map * {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #554132;
+    box-sizing: border-box;
+    width: 100%;
+    height: max-content;
+    padding: 20px;
+    outline: dashed #a38a7a 2px;
+    outline-offset: -8px;
+}
+
+.footer-bottom {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.4em;
+}
+
+.footer-bottom * {
+    margin: 0;
+    color: #d6b6a1;
+    font-size: 1.05em;
+}
+
+.simple-link {
+    display: block;
+    line-height: 50px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.simple-link * {
+    color: #EAD9CE;
+    text-decoration-style:solid;
+}
+
+.simple-link *:hover {
+    color: #e3a47b;
+    text-decoration-style:solid;
+}
+
+.simple-link-container {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    column-count: 3;
+}
