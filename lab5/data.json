@@ -9,7 +9,7 @@
             "name": "Чай",
             "description": "Гарячий напій, приготований з листя чайного куща",
             "photos": [
-              "https://example.com/images/tea.jpg"
+              "https://miychay.com/upload/iblock/7c6/7c664063ba5e6215cb3567de3330c187.jpg"
             ]
           },
           {
@@ -17,15 +17,15 @@
             "name": "Кава",
             "description": "Гарячий напій, приготований з зерен кави",
             "photos": [
-              "https://example.com/images/coffee.jpg"
+              "https://klopotenko.com/wp-content/uploads/2021/08/koryst-kavy_sitewebukr.jpg?v=1628627235"
             ]
           },
           {
             "id": 3,
-            "name": "Сок",
+            "name": "Сік",
             "description": "Безалкогольний напій, приготований з фруктів або овочів",
             "photos": [
-              "https://example.com/images/juice.jpg"
+              "https://i1.poltava.to/news/260/25987/photo.jpg"
             ]
           }
         ]
@@ -39,7 +39,7 @@
             "name": "Салат Цезар",
             "description": "Салат з листя салату, помідорів, пармезану та соусу Цезар",
             "photos": [
-              "https://example.com/images/caesar_salad.jpg"
+              "https://images.unian.net/photos/2019_12/thumb_files/1200_0_1577182092-7643.jpg"
             ]
           },
           {
@@ -47,7 +47,7 @@
             "name": "Окрошка",
             "description": "Холодний суп з овочів, м'яса або риби, сметани та яєць",
             "photos": [
-              "https://example.com/images/okroshka.jpg"
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/%D0%9E%D0%BA%D1%80%D0%BE%D1%88%D0%BA%D0%B0_Okroshka_05.jpg/800px-%D0%9E%D0%BA%D1%80%D0%BE%D1%88%D0%BA%D0%B0_Okroshka_05.jpg"
             ]
           },
           {
@@ -55,7 +55,7 @@
             "name": "Холодець",
             "description": "Закуска з м'яса або риби, звареного в бульйоні та охолодженого",
             "photos": [
-              "https://example.com/images/cold_meat.jpg"
+              "https://klopotenko.com/wp-content/uploads/2023/04/drahli_sitewebukr-img-1000x600.jpg?v=1680530707"
             ]
           }
         ]
@@ -69,7 +69,7 @@
             "name": "Плов",
             "description": "Страва з рису, м'яса, овочів та спецій",
             "photos": [
-              "https://example.com/images/pilaf.jpg"
+              "https://ist.say7.info/img0001/18/118_0134bxr_2961_1024.jpg"
             ]
           },
           {
@@ -77,7 +77,7 @@
             "name": "Борщ",
             "description": "Гарячий суп з буряка, капусти, картоплі, моркви та інших овочів",
             "photos": [
-              "https://example.com/images/borscht.jpg"
+              "https://images.unian.net/photos/2022_09/thumb_files/1200_0_1662892107-3846.jpg"
             ]
           },
           {
@@ -85,7 +85,7 @@
             "name": "Запіканка",
             "description": "Страва з готового блюда, запеченого в духовці",
             "photos": [
-              "https://example.com/images/casserole.jpg"
+              "https://i.obozrevatel.com/food/recipemain/2018/12/14/shutterstock269407619-800x531.jpg?size=636x424"
             ]
           }
         ]
