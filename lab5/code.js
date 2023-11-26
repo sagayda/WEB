@@ -1,14 +1,8 @@
-const api = `https://raw.githubusercontent.com/sagayda/WEB/main/lab5/data.json`;
+const api = "data.json";
 
 const dishes = [];
 const searchInput = document.querySelector('#search');
-const searchOptions = document.querySelector('#search-results');
-
-/* fetch(api)
-    .then(res => res.json())
-    .then(data => {
-        dishes.push(data);
-    }); */
+const searchResults = document.querySelector('#search-results');
 
 fetch(api)
     .then(res => res.json())
@@ -21,19 +15,16 @@ fetch(api)
 
 
 function findOptions(word, data){
-
     return data.filter( s => {
-
         const regexp = new RegExp(word, 'gi');
         return s.name.match(regexp);
     });
 }
 
 function displayOptions(){
-    const options = findOptions(this.value, dishes);
+    const result = findOptions(this.value, dishes);
 
-    const html = options.map( dishes => {
-        /* return `<li>${dishes.name}</li>`; */
+    const html = result.map( dishes => {
         return `<div class="search-results-block" >
         <img class="search-results-image" src="${dishes.photos[0]}">
         <div class="search-results-text-block">
@@ -44,7 +35,7 @@ function displayOptions(){
     </div>`
     }).slice(0, 5).join("");
 
-    searchOptions.innerHTML = html;
+    searchResults.innerHTML = html;
 }
 
 
