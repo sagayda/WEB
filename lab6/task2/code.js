@@ -25,8 +25,6 @@ const products = [
     }
   ];
 
-const button = document.querySelector("#button");
-const input = document.querySelector('#input');
 
 function main(){
     getProductDetails(input.value, LogProduct, console.log);
@@ -53,5 +51,3 @@ function getProductDetails(productId, succesCallback, errorCallback){
 function LogProduct(product){
     console.log(`id: ${product.id}\tname: ${product.name}\tdescription: ${product.description}`);
 }
-
-button.addEventListener('click', main);

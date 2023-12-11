@@ -7,8 +7,6 @@ const concerts = {
   Харків: new Date("2025-07-10"),
 };
 
-const button = document.querySelector("#button");
-
 function findPassedConcerts() {
   var passedConcerts = Object.entries(concerts)
     .filter(([city, date]) => date > Date.now())

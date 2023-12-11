@@ -5,8 +5,6 @@ const medicines = [
   { name: "Alphacholine", price: 390 },
 ];
 
-const button = document.querySelector("#button");
-
 function main() {
   addDiscount();
   addId();

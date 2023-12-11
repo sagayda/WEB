@@ -1,4 +1,4 @@
-const checkBrackets = (str) => {
+function checkBrackets(str) {
   const openBrackets = new Set(["(", "{", "["]);
   const closeBrackets = new Set([")", "}", "]"])
   const bracketsPairs = {
