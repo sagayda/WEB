@@ -45,3 +45,5 @@ function foo() {
 
 console.log(checkBrackets(someFn));
 console.log(checkBrackets(someFn1));
+
+alert( + "Infinity" );
